@@ -12,7 +12,7 @@ public class Page51 {
     public static void main(String[] args) {
         List<Tweet> iterable = new ArrayList<Tweet>();
         Observable<Tweet> tweets = Observable.from(iterable);
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 20; i++) {
             iterable.add(new Tweet("" + i));
         }
 
