@@ -2,6 +2,7 @@ package ua.logic.guiceExample;
 
 import com.google.inject.*;
 import org.junit.*;
+import ua.logic.guiceExample.implementedBy.*;
 
 public class MyApplicationTest {
     private Injector injector;

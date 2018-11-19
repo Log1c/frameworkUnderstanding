@@ -1,4 +1,4 @@
-package ua.logic.guiceExample;
+package ua.logic.guiceExample.withInjector;
 
 import com.google.inject.*;
 
