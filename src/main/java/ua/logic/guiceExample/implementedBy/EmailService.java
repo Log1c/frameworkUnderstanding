@@ -1,11 +1,11 @@
-package ua.logic.guiceExample;
+package ua.logic.guiceExample.implementedBy;
 
 import javax.inject.*;
 
 @Singleton
-public class EmailService //implements MessageService
+public class EmailService implements MessageService
 {
-    //@Override
+    @Override
     public boolean sendMessage(String msg, String receipient) {
         //some fancy code to send email
         System.out.println("Email Message sent to "+receipient+" with message="+msg);

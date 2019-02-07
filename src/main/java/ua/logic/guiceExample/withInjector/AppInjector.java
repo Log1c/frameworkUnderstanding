@@ -1,4 +1,4 @@
-package ua.logic.guiceExample;
+package ua.logic.guiceExample.withInjector;
 
 import com.google.inject.*;
 
@@ -9,6 +9,6 @@ public class AppInjector extends AbstractModule {
         //bind(MessageService.class).to(EmailService.class);
 
         //bind MessageService to Facebook Message implementation
-        bind(MessageService.class).to(FacebookService.class);
+        bind(MessageService.class).to(EmailService.class);
     }
 }
